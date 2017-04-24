@@ -1,4 +1,7 @@
-# api documentation for  [core-decorators (v0.17.0)](https://github.com/jayphelps/core-decorators.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-core-decorators.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-core-decorators) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-core-decorators.svg)](https://travis-ci.org/npmdoc/node-npmdoc-core-decorators)
+# npmdoc-core-decorators
+
+#### api documentation for  [core-decorators (v0.17.0)](https://github.com/jayphelps/core-decorators.js)  [![npm package](https://img.shields.io/npm/v/npmdoc-core-decorators.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-core-decorators) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-core-decorators.svg)](https://travis-ci.org/npmdoc/node-npmdoc-core-decorators)
+
 #### Library of JavaScript stage-0 decorators (aka ES2016/ES7 decorators but that's not accurate!) inspired by languages that come with built-ins like @​override, @​deprecate, @​autobind, @​mixin and more! Works great with React/Angular/more!
 
 [![NPM](https://nodei.co/npm/core-decorators.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/core-decorators)
@@ -99,7 +102,8 @@
         "build-es": "BABEL_ENV=es babel --out-dir es src",
         "test": "npm run build && mocha --compilers js:babel-core/register --require babel-polyfill \"test/**/*.spec.js\""
     },
-    "version": "0.17.0"
+    "version": "0.17.0",
+    "bin": {}
 }
 ```
 
